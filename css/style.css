@@ -57,7 +57,7 @@ a {
 }
 
 .bg-grey {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .btn-small {
@@ -81,6 +81,7 @@ a {
     background-color: #23272a;
     color: white;
 }
+
 
 /* DEBUG */
 
@@ -228,51 +229,69 @@ header {
 
 /* MAIN */
 
-/* Main > Sections: COMMON */
+/* Sections: COMMON */
+
 main > section {
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    padding: 200px 0 230px 0;
 }
 
 main > section .columns {
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .columns .col-wide {
     width: 60%;
+    height: 500px;
+    background-size: cover;
 }
 
 .columns .col-narrow {
     width: 40%;
 }
 
-/* Section-First */
-
-#section-first .columns .col-left {
+.col-text {
 
 }
 
-#section-first .columns .col-right {
+.col-text h2 {
+    font-size: 60px;
+    padding-bottom: 30px;
+}
 
+.col-text p {
+    line-height: 35px;
+}
+/* Section-First */
+
+#section-first .columns .col-image {
+    background-image: url(../img/item1.svg);
+}
+
+#section-first .columns .col-text {
+    padding-left: 100px;
+    padding-top: 30px;
 }
 
 /* Section-Second */
 
-#section-second .columns .col-left {
-
+#section-second .columns .col-text {
+    padding-right: 100px;
+    padding-top: 30px; 
 }
 
-#section-second .columns .col-right {
-
+#section-second .columns .col-image {
+    background-image: url(../img/item2.svg);
 }
 
 /* Section-Third */
 
-#section-third .columns .col-left {
+#section-third .columns .col-image {
 
 }
 
-#section-third .columns .col-right {
+#section-third .columns .col-text {
 
 }
 
