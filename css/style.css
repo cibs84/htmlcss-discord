@@ -29,6 +29,98 @@ a {
     color: inherit;
 }
 
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+/* DEBUG */
+.debug #header-top .columns {
+    background-color: goldenrod;
+}
+
+.debug .item-header-top {
+    border: 2px dashed black;
+}
+
+.debug #header-bottom {
+    background-color: #00008b;
+}
+
+.debug .jumbotron-text {
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug #section-first .columns .col-left {
+    background-color: #1e90ff;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.debug #section-first .columns .col-right {
+    background-color: #ffc0cb;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.debug #section-second .columns .col-left {
+    background-color: #ffc0cb;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.debug #section-second .columns .col-right {
+    background-color: #1e90ff;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.debug #section-third .columns .col-left {
+    background-color: #1e90ff;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.debug #section-third .columns .col-right {
+    background-color: #ffc0cb;
+    height: 500px;
+    border: 2px dashed black;
+}    
+
+.debug #section-fourth .col {
+    background-color: #228b22;
+    height: 900px;
+    border: 2px dashed black;
+}
+
+.debug #footer-top .columns .col-left {
+    background-color: #f08080;
+    height: 570px;
+    border: 2px dashed black;
+}
+
+.debug #footer-top .columns .col-right {
+    background-color: #20b2aa;
+    height: 570px;
+}
+
+.debug #footer-bottom .columns {
+    height: 80px;
+    background-color: #7fffd4;
+}
+
+.debug #footer-top .columns .col-right .col {
+    border: 2px dashed white;
+}
+
+.debug .logo-footer,
+.debug .button-footer {
+    border: 2px dashed black;
+    padding: 4px 10px;
+    background-color: #ffb6c1;
+}
+
 /* HEADER */
 header {
 }
@@ -41,16 +133,9 @@ header {
 
     #header-top .columns {
         align-items: center;
-
-        /* TEST */
-        background-color: goldenrod;
     }
 
-    .logo,
-    nav,
-    #login {
-        /* TEST */
-        border: 2px dashed black;
+    .item-header-top {
         padding: 10px;    
     }
 
@@ -81,18 +166,10 @@ header {
         justify-content: center;
         align-items: center;
         padding: 50px 0;
-        
-        /* TEST */
-        background-color: #00008b;
     }
+
     .jumbotron-text {
         width: 45%;
-        
-        /* TEST */
-        background-color: #ee82ee;
-        border: 2px dashed black;
-        height: 400px;
-        
     }
 
 /* MAIN */
@@ -109,76 +186,33 @@ header {
     /* Section-First */
     #section-first .columns .col-left {
         width: 60%;
-
-        /* TEST */
-        background-color: #1e90ff;
-        height: 500px;
-        border: 2px dashed black;
     }
 
     #section-first .columns .col-right {
         width: 40%;
-        
-        /* TEST */
-        background-color: #ffc0cb;
-        height: 500px;
-        border: 2px dashed black;
     }
 
     /* Section-Second */
-    #section-second {
-        background-color: #d3d3d3;
-    }
-
     #section-second .columns .col-left {
         width: 40%;
-        
-        /* TEST */
-        background-color: #ffc0cb;
-        height: 500px;
-        border: 2px dashed black;
     }
     
     #section-second .columns .col-right {
         width: 60%;
-    
-        /* TEST */
-        background-color: #1e90ff;
-        height: 500px;
-        border: 2px dashed black;
     }
 
     /* Section-Third */
     #section-third .columns .col-left {
         width: 60%;
-
-        /* TEST */
-        background-color: #1e90ff;
-        height: 500px;
-        border: 2px dashed black;
     }
 
     #section-third .columns .col-right {
         width: 40%;
-        
-        /* TEST */
-        background-color: #ffc0cb;
-        height: 500px;
-        border: 2px dashed black;
     }
 
     /* Section-Fourth */
-    #section-fourth {
-        background-color: #d3d3d3;
-    }
-
     #section-fourth .col {
         width: 100%;
-        
-        /* TEST */
-        background-color: #228b22;
-        height: 900px;
-        border: 2px dashed black;
     }
      
 /* FOOTER */
@@ -187,31 +221,18 @@ header {
     #footer-top {
         padding: 15px 0 60px 0;
         background-color: #23272a;
-        border-bottom: 2px solid white;
     }
 
     #footer-top .columns .col-left {
         width: 30%;
-
-        /* TEST */
-        background-color: #f08080;
-        height: 570px;
-        border: 2px dashed black;
     }
 
     #footer-top .columns .col-right {
         width: 70%;
-
-        /* TEST */
-        background-color: #20b2aa;
-        height: 570px;
     }
 
     #footer-top .columns .col-right .col {
         width: calc(100% / 4);
-
-        /* TEST */
-        border: 2px dashed white;
     }
     
     /* Footer-Bottom */
@@ -223,15 +244,10 @@ header {
     #footer-bottom .columns {
         justify-content: space-between;
         align-items: center;
-        height: 80px;
-        background-color: #7fffd4;
     }
     
     .logo-footer,
     .button-footer {
-        /* TEST */
-        border: 2px dashed black;
-        padding: 4px 10px;
-        background-color: #ffb6c1;
+
     }
     
