@@ -1,0 +1,4 @@
+https://cdnjs.com/libraries/font-awesome
+https://fontawesome.com/icons/down-long?s=solid
+https://fontawesome.com/icons/chevron-down?s=solid
+font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
