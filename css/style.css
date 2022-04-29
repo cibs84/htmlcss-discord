@@ -30,7 +30,7 @@
 /* COMMON */
 
 body {
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -66,9 +66,20 @@ a {
     padding: 7px 16px;
 }
 
+.btn-large {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
 .btn-white {
-    background-color: #fff;
-    color: #23272a;
+    background-color: white;
+    color: black;
+}
+
+.btn-black {
+    background-color: #23272a;
+    color: white;
 }
 
 /* DEBUG */
@@ -85,10 +96,9 @@ a {
     background-color: #00008b;
 }
 
-.debug .jumbotron-text {
+.debug .jumbotron {
     background-color: #ee82ee;
     border: 2px dashed black;
-    height: 400px;
 }
 
 .debug .col-wide {
@@ -189,10 +199,31 @@ header {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.jumbotron-text {
+.jumbotron {
     width: 45%;
+    height: 520px;
+    text-align: center;
+    line-height: 35px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    padding-bottom: 55px;
+}
+
+.jumbotron-buttons {
+    padding-top: 27px;
+}
+
+.jumbotron-buttons span:first-child {
+    margin-right: 25px;
 }
 
 /* MAIN */
