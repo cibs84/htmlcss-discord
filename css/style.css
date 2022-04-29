@@ -52,37 +52,13 @@ a {
     height: 400px;
 }
 
-.debug #section-first .columns .col-left {
+.debug .col-wide {
     background-color: #1e90ff;
     height: 500px;
     border: 2px dashed black;
 }
 
-.debug #section-first .columns .col-right {
-    background-color: #ffc0cb;
-    height: 500px;
-    border: 2px dashed black;
-}
-
-.debug #section-second .columns .col-left {
-    background-color: #ffc0cb;
-    height: 500px;
-    border: 2px dashed black;
-}
-
-.debug #section-second .columns .col-right {
-    background-color: #1e90ff;
-    height: 500px;
-    border: 2px dashed black;
-}
-
-.debug #section-third .columns .col-left {
-    background-color: #1e90ff;
-    height: 500px;
-    border: 2px dashed black;
-}
-
-.debug #section-third .columns .col-right {
+.debug .col-narrow {
     background-color: #ffc0cb;
     height: 500px;
     border: 2px dashed black;
@@ -114,8 +90,7 @@ a {
     border: 2px dashed white;
 }
 
-.debug .logo-footer,
-.debug .button-footer {
+.debug .item-footer-bottom {
     border: 2px dashed black;
     padding: 4px 10px;
     background-color: #ffb6c1;
@@ -183,31 +158,39 @@ header {
         align-items: center;
     }
 
-    /* Section-First */
-    #section-first .columns .col-left {
+    .columns .col-wide {
         width: 60%;
     }
 
-    #section-first .columns .col-right {
+    .columns .col-narrow {
         width: 40%;
+    }
+
+    /* Section-First */
+    #section-first .columns .col-left {
+
+    }
+
+    #section-first .columns .col-right {
+
     }
 
     /* Section-Second */
     #section-second .columns .col-left {
-        width: 40%;
+
     }
     
     #section-second .columns .col-right {
-        width: 60%;
+
     }
 
     /* Section-Third */
     #section-third .columns .col-left {
-        width: 60%;
+
     }
 
     #section-third .columns .col-right {
-        width: 40%;
+
     }
 
     /* Section-Fourth */
@@ -246,8 +229,14 @@ header {
         align-items: center;
     }
     
-    .logo-footer,
+    .logo-footer {
+
+    }
+
     .button-footer {
 
     }
     
+    .item-footer-bottom {
+        
+    }
