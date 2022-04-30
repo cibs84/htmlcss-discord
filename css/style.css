@@ -280,7 +280,7 @@ main > section .columns {
 /* Section-Second */
 
 #section-second .columns .col-text {
-    padding-right: 100px;
+    padding-right: 70px;
     padding-top: 30px; 
 }
 
@@ -311,6 +311,7 @@ main > section .columns {
     background-image: url(../img/item4-big.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #section-fourth .cta-group {
