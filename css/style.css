@@ -62,14 +62,14 @@ a {
 
 .btn-small {
     border-radius: 40px;
-    font-size: 14px;
-    padding: 7px 16px;
+    font-size: 20px;
+    padding: 10px 16px;
 }
 
 .btn-large {
     border-radius: 28px;
     font-size: 25px;
-    padding: 15px 20px;
+    padding: 15px 25px;
 }
 
 .btn-white {
@@ -123,13 +123,13 @@ a {
     border: 2px dashed black;
 }
 
-.debug #footer-top .columns .col-left {
+.debug #footer-top .columns .info-box {
     background-color: #f08080;
     height: 570px;
     border: 2px dashed black;
 }
 
-.debug #footer-top .columns .col-right {
+.debug #footer-top .columns .menu-footer {
     background-color: #20b2aa;
     height: 570px;
 }
@@ -168,7 +168,7 @@ header {
 
 .item-header-top {
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #header-top .logo {
@@ -176,7 +176,7 @@ header {
 }
 
 #header-top .logo img {
-    width: 125px;
+    width: 150px;
 }
 
 #header-top nav {
@@ -333,31 +333,75 @@ main > section .columns {
 
 
 /* FOOTER */
+footer {
+    color: white;
+    background-color: #23272a;
+}
 
 /* Footer-Top */
 
 #footer-top {
-    padding: 15px 0 60px 0;
+    padding: 80px 0 60px 0;
     background-color: #23272a;
 }
 
-#footer-top .columns .col-left {
+#footer-top .columns .info-box {
     width: 30%;
 }
 
-#footer-top .columns .col-right {
-    width: 70%;
+#footer-top .info-title {
+    color: #7289da;
+    font-size: 45px;
+    line-height: 45px;
 }
 
-#footer-top .columns .col-right .col {
-    width: calc(100% / 4);
+#footer-top .italian-flag,
+#footer-top .arrow-down {
+    font-size: 15px;
+    vertical-align: text-bottom;
+}
+
+#footer-top .info-language .italian-flag {
+    width: 25px;
+}
+
+#footer-top .info-language {
+    font-size: 17px;
+    padding: 25px 0;
+}
+
+#footer-top .info-social .icon {
+    padding-right: 30px;
+}
+
+#footer-top .menus-footer {
+    width: 70%;
+    justify-content: space-between;
+}
+
+#footer-top .menus-footer .col {
+    line-height: 47px;
+    font-weight: 300;
+    width: calc(100% / 4 - 100px);
+    line-height: 47px;
+    font-weight: 300;  
+}
+
+#footer-top .menus-footer h4 {
+    color: #7289da;
+    font-size: 20px;
+}
+
+#footer-top .menus-footer ul {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* Footer-Bottom */
 
 #footer-bottom {
     background-color: #23272a;
-    padding-top: 30px;
+    padding: 25px 0 50px;
 }
 
 #footer-bottom .columns {
@@ -365,8 +409,8 @@ main > section .columns {
     align-items: center;
 }
 
-.logo-footer {
-
+#footer-bottom .logo-footer img {
+    width: 150px;
 }
 
 .button-footer {
