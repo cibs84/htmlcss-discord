@@ -212,7 +212,6 @@ header {
     transform: rotate(180deg);
 }
 
-
 /* Header-Bottom */
 
 #header-bottom {
@@ -315,7 +314,7 @@ main > section .columns {
     padding: 0;
 }
 
-#section-fourth .col {
+#section-fourth .col-image {
     height: 800px;
     background-image: url(../img/item4-big.svg);
     background-size: contain;
@@ -323,7 +322,7 @@ main > section .columns {
     background-position: center;
 }
 
-#section-fourth .cta-group {
+#section-fourth .col-cta {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
